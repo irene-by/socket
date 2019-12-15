@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!--1. Простой сервер-->
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8"/>-->
+<!--    <title>Socket.io</title> -->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Hello world</h1>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--2. Hello world-->
+
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8"/>-->
+<!--    <title>Socket.io</title>-->
+<!--    <script src="/socket.io/socket.io.js"></script>-->
+<!--</head>-->
+<!--<script>-->
+<!--    const socket = io();-->
+<!--</script>-->
+<!--<body>-->
+<!--<h1>Hello world 2</h1>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--3. Обработка событий-->
+
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>Socket.io</title>-->
+<!--    <script src="/socket.io/socket.io.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    const socket = io();-->
+<!--    socket.on('message', function (data) {-->
+<!--        document.write(data);-->
+<!--    });-->
+<!--</script>-->
+<!--<h1>Hello world 3</h1>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--4. Добавление пользовательских событий-->
+
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>Socket.io</title>-->
+<!--    <script src="/socket.io/socket.io.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    const socket = io();-->
+<!--    socket.on('myEvent', function (data) {-->
+<!--    console.log('data');-->
+<!--    document.write(data.description);-->
+<!--    });-->
+<!--</script>-->
+<!--<h1>Hello world 4</h1>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--5. Получение событий от клиента-->
+
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>Socket.io</title>-->
+<!--    <script src="/socket.io/socket.io/js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    const socket = io();-->
+<!--    socket.emit('clientEvent', 'This event from client');-->
+<!--</script>-->
+<!--<h1>Hello world 5</h1>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--6. Широковещание - отправка сообщений всем клиентам.-->
+
+<!--<html lang="en ua ru">-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>Socket.io</title>-->
+<!--    <script src="/socket.io/socket.io.js"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    const socket = io();-->
+<!--    socket.on('broadcast', function (data) {-->
+<!--        document.body.innerHTML = '';-->
+<!--        document.write(data.description);-->
+<!--    });-->
+<!--</script>-->
+<!--<h1>Hello world 6</h1>-->
+<!--</body>-->
+<!--</html>-->
